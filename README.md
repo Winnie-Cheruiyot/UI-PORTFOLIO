@@ -1,4 +1,4 @@
-🎨 UI Portfolio - John Watson
+#🎨 UI Portfolio - John Watson
 
 Welcome to the official repository for John Watson's UI Portfolio — a professional, responsive, and modern personal portfolio website showcasing skills in UI/UX design, web development, and photography.
 
