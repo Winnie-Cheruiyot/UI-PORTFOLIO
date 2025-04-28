@@ -1,0 +1,144 @@
+/* services.css */
+
+/* General Section Styling */
+section {
+    padding: 60px 0;
+  }
+  
+  /* Section Headings */
+  section h2, section h3 {
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 30px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #198754, #14532d);
+    color: #fff;
+    min-height: 80vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero h1 strong {
+    color: #ffc107;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+  
+  /* Service Cards */
+  .card {
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Service Icons */
+  .card-body .bi {
+    font-size: 3rem;
+    color: #198754;
+  }
+  
+  /* Biography Section */
+  .text-muted {
+    color: #6c757d !important;
+  }
+  
+  small.text-uppercase {
+    letter-spacing: 2px;
+  }
+  
+  /* Skills Section */
+  #skills .progress {
+    background-color: #e9ecef;
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  #skills .progress-bar {
+    font-size: 0.75rem;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Featured Skills */
+  .skill-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Services Section */
+  #services .row > div {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  #services .row > div:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Achievements Section */
+  #achievements {
+    background: #f8f9fa;
+  }
+  
+  #achievements .highlight-box {
+    background: #198754;
+    color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  #achievements .highlight-box:hover {
+    background: #14532d;
+  }
+  
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Buttons */
+  .btn-success {
+    background-color: #198754;
+    border: none;
+  }
+  
+  .btn-outline-success {
+    border-color: #198754;
+    color: #198754;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #198754;
+    color: #fff;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .hero h2 {
+      font-size: 2rem;
+    }
+    .hero img {
+      max-width: 300px;
+    }
+  }
+  

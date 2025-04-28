@@ -1,0 +1,252 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #060708;
+  }
+  
+  p, small {
+    color: #050607;
+  }
+  
+  a {
+    color: #28a745;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #218838;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-md-start {
+    text-align: left;
+  }
+  
+  .my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #343a40;
+    color: white;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .hero .btn {
+    margin-top: 20px;
+  }
+  
+  .hero img {
+    max-height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #ffffff;
+    padding: 60px 0;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #contact .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  #contact .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  #contact button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background-color: #218838;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  footer .footer-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  footer .footer-social a {
+    color: white;
+    margin: 0 15px;
+    font-size: 1.5rem;
+  }
+  
+  footer .footer-social a:hover {
+    color: #28a745;
+  }
+  
+  /* Social Media Icons Section */
+  .icon-bar {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .icon-item {
+    margin: 0 20px;
+  }
+  
+  .icon-item p {
+    color: rgb(10, 8, 8);
+  }
+  
+  .icon-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .icon-bar .icon-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
+  
+  /* Services Grid */
+  .card {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #070808;
+  }
+  
+  .text-muted {
+    color: #01070c !important;
+  }
+  
+  /* Featured Skills Section */
+  #skills .skill-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  #skills .progress {
+    height: 10px;
+    border-radius: 50px;
+  }
+  
+  #skills .progress-bar {
+    background-color: #28a745;
+    font-size: 0.9rem;
+  }
+  
+  #skills h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #skills p {
+    font-size: 1rem;
+    color: #090b0c;
+  }
+  
+  /* Success Work Section */
+  #success-work img {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #success-work img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero h2 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1.1rem;
+    }
+  
+    .container {
+      padding: 0 15px;
+    }
+  
+    .icon-item {
+      margin: 0 10px;
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+    }
+  }
+  

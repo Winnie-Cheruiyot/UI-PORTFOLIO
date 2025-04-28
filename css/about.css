@@ -1,0 +1,167 @@
+/* about.css */
+
+/* General Section Styling */
+section {
+  padding: 60px 0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/about-bg.jpg') center/cover no-repeat;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #eee;
+  margin-top: 15px;
+}
+
+.hero p {
+  color: #ccc;
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+/* Biography Section */
+.biography {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.biography img {
+  border-radius: 15px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.biography h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+.biography p {
+  margin-top: 20px;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Contact Info */
+.biography .row strong {
+  color: #212529;
+  font-weight: 600;
+}
+
+/* Social Links */
+.biography p a {
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.biography p a:hover {
+  color: #28a745;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #ffffff;
+}
+
+#skills h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+#skills p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.progress {
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress-bar {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+/* Services Section */
+#services h6 {
+  font-weight: 600;
+  color: #333;
+}
+
+#services p {
+  color: #6c757d;
+}
+
+#services .fs-3 {
+  color: #28a745;
+}
+
+/* Achievements Section */
+#achievements {
+  background-color: #f8f9fa;
+}
+
+.highlight-box {
+  padding: 30px 20px;
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.highlight-box:hover {
+  transform: translateY(-5px);
+  background-color: #28a745;
+  color: #fff;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+}
+
+/* Buttons */
+.btn-success, .btn-outline-success {
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+}
+
